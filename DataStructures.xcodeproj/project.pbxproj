@@ -6,6 +6,11 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		F99F208321FF5D820016795F /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F99F208221FF5D820016795F /* Runner.cpp */; };
+		F99F208721FF5D9E0016795F /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F99F208521FF5D9E0016795F /* Controller.cpp */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		F99F207021FF5B4B0016795F /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -22,6 +27,9 @@
 		F99F207221FF5B4B0016795F /* DataStructures */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructures; sourceTree = BUILT_PRODUCTS_DIR; };
 		F99F208021FF5CB30016795F /* Node Diagram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Node Diagram.png"; sourceTree = "<group>"; };
 		F99F208121FF5CB30016795F /* LinearNode Diagram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LinearNode Diagram.png"; sourceTree = "<group>"; };
+		F99F208221FF5D820016795F /* Runner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Runner.cpp; sourceTree = "<group>"; };
+		F99F208521FF5D9E0016795F /* Controller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Controller.cpp; sourceTree = "<group>"; };
+		F99F208621FF5D9E0016795F /* Controller.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Controller.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +73,9 @@
 		F99F207C21FF5BD70016795F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				F99F208221FF5D820016795F /* Runner.cpp */,
+				F99F208521FF5D9E0016795F /* Controller.cpp */,
+				F99F208621FF5D9E0016795F /* Controller.hpp */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -148,6 +159,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F99F208321FF5D820016795F /* Runner.cpp in Sources */,
+				F99F208721FF5D9E0016795F /* Controller.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
