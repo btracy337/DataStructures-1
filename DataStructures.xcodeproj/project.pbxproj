@@ -25,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		F96CDE402201F8C10055BC2B /* LinearNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinearNode.hpp; sourceTree = "<group>"; };
+		F96CDE42220206670055BC2B /* Array.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Array.hpp; sourceTree = "<group>"; };
 		F99F207221FF5B4B0016795F /* DataStructures */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructures; sourceTree = BUILT_PRODUCTS_DIR; };
 		F99F208021FF5CB30016795F /* Node Diagram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Node Diagram.png"; sourceTree = "<group>"; };
 		F99F208121FF5CB30016795F /* LinearNode Diagram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LinearNode Diagram.png"; sourceTree = "<group>"; };
@@ -52,6 +53,14 @@
 				F96CDE402201F8C10055BC2B /* LinearNode.hpp */,
 			);
 			path = Nodes;
+			sourceTree = "<group>";
+		};
+		F96CDE41220206530055BC2B /* Linear */ = {
+			isa = PBXGroup;
+			children = (
+				F96CDE42220206670055BC2B /* Array.hpp */,
+			);
+			path = Linear;
 			sourceTree = "<group>";
 		};
 		F99F206921FF5B4B0016795F = {
@@ -94,6 +103,7 @@
 		F99F207D21FF5BDF0016795F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F96CDE41220206530055BC2B /* Linear */,
 				F96CDE3E2201F0BA0055BC2B /* Nodes */,
 			);
 			path = Model;
