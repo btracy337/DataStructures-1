@@ -9,7 +9,7 @@
 #ifndef Node_hpp
 #define Node_hpp
 
-#include <assert.h>
+#include <iostream>
 
 template <class Type>
 class Node
