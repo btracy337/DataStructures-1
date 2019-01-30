@@ -36,9 +36,21 @@ public:
     
     //methods
     int getSize() const;
-    Type getFromIndex(int index)
-    
+    Type getFromIndex(int index);
+    void setAtIndex(int index, Type data);
 };
+
+//Implementation
+
+template <class Type>
+Array<Type> :: Array<Type>(int size)
+{
+    assert(size > 0);
+    this->size = size;
+    
+    internalArray = new Type[size];
+}
+
 
 
 #endif /* Array_h */
