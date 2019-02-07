@@ -27,6 +27,7 @@
 /* Begin PBXFileReference section */
 		F913B60A220C84F5006186DA /* List.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = List.hpp; sourceTree = "<group>"; };
 		F913B60B220C8978006186DA /* DataStructuresDiagram.uxf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = DataStructuresDiagram.uxf; sourceTree = "<group>"; };
+		F913B60C220C94CC006186DA /* LinkedList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkedList.hpp; sourceTree = "<group>"; };
 		F9419D372209DEAA00625691 /* Timer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Timer.cpp; sourceTree = "<group>"; };
 		F9419D382209DEAA00625691 /* Timer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Timer.hpp; sourceTree = "<group>"; };
 		F96CDE402201F8C10055BC2B /* LinearNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinearNode.hpp; sourceTree = "<group>"; };
@@ -74,6 +75,7 @@
 			children = (
 				F96CDE42220206670055BC2B /* Array.hpp */,
 				F913B60A220C84F5006186DA /* List.hpp */,
+				F913B60C220C94CC006186DA /* LinkedList.hpp */,
 			);
 			path = Linear;
 			sourceTree = "<group>";
