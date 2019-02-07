@@ -26,7 +26,7 @@
 
 /* Begin PBXFileReference section */
 		F913B60A220C84F5006186DA /* List.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = List.hpp; sourceTree = "<group>"; };
-		F913B60B220C8978006186DA /* Node Diagram.uxf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Node Diagram.uxf"; sourceTree = "<group>"; };
+		F913B60B220C8978006186DA /* DataStructuresDiagram.uxf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = DataStructuresDiagram.uxf; sourceTree = "<group>"; };
 		F9419D372209DEAA00625691 /* Timer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Timer.cpp; sourceTree = "<group>"; };
 		F9419D382209DEAA00625691 /* Timer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Timer.hpp; sourceTree = "<group>"; };
 		F96CDE402201F8C10055BC2B /* LinearNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinearNode.hpp; sourceTree = "<group>"; };
@@ -128,7 +128,7 @@
 		F99F207E21FF5BEF0016795F /* Diagrams */ = {
 			isa = PBXGroup;
 			children = (
-				F913B60B220C8978006186DA /* Node Diagram.uxf */,
+				F913B60B220C8978006186DA /* DataStructuresDiagram.uxf */,
 				F99F208121FF5CB30016795F /* LinearNode Diagram.png */,
 				F99F208021FF5CB30016795F /* Node Diagram.png */,
 			);
