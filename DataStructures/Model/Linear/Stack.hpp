@@ -64,7 +64,7 @@ void Stack<Type> :: push(Type data)
 }
 
 template <class Type>
-void Stack<Type> :; addd(Type data)
+void Stack<Type> :: addd(Type data)
 {
     void push(data);
 }
@@ -84,7 +84,7 @@ Type Stack<Type> :: pop()
     
     LinearNode<Type> * remoedNode = this->getFront();
     this->frot = removedNode->getNextNode();
-    delete removedode;
+    delete removedNode;
     
     this->size--;
     
