@@ -7,3 +7,21 @@
 //
 
 #include "LinearTester.hpp"
+
+void LinearTester :: testVsSTL()
+{
+    Timer crimeTimerSTL, crimerTimerOOP, musicSTL, musicOOP;
+    
+    crimeTimerSTL.startTimer();
+    vector<CrimeData> crimes = FileController:: readCrimeDataToVector("/Users/gram2068/Documents/C++ code/DataStructures/DataStructures/Resources/crime.csv");
+    crimeTimerSTL.stopTimer();
+    
+    crimerTimerOOP.startTimer();
+    LinkedList<CrimeData> moreCrimes = FileController :: readDataToList("/Users/gram2068/Documents/C++ code/DataStructures/DataStructures/Resources/crime.csv");
+    crimerTimerOOP.stopTimer();
+    
+    crimeTimerSTL.displayInformation();
+    crimerTimerOOP.displayInformation();
+    
+    cout << "a difference of: " << crimerTimerOOP.getTimeInMicroseconds() - crimeTimerSTL.getTimeInMicroseconds() << " microseconds" << endl;
+}
