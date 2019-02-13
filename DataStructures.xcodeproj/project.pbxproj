@@ -11,6 +11,7 @@
 		53010B182214024A00699AE6 /* Music.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53010B132214024A00699AE6 /* Music.cpp */; };
 		53010B192214024A00699AE6 /* CrimeData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53010B162214024A00699AE6 /* CrimeData.cpp */; };
 		F9419D392209DEAA00625691 /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9419D372209DEAA00625691 /* Timer.cpp */; };
+		F95570A022147EF30099805F /* LinearTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F955709E22147EF30099805F /* LinearTester.cpp */; };
 		F99F208321FF5D820016795F /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F99F208221FF5D820016795F /* Runner.cpp */; };
 		F99F208721FF5D9E0016795F /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F99F208521FF5D9E0016795F /* Controller.cpp */; };
 /* End PBXBuildFile section */
@@ -42,6 +43,8 @@
 		F9419D372209DEAA00625691 /* Timer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Timer.cpp; sourceTree = "<group>"; };
 		F9419D382209DEAA00625691 /* Timer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Timer.hpp; sourceTree = "<group>"; };
 		F955709C221466BD0099805F /* Stack.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Stack.hpp; sourceTree = "<group>"; };
+		F955709E22147EF30099805F /* LinearTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinearTester.cpp; sourceTree = "<group>"; };
+		F955709F22147EF30099805F /* LinearTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinearTester.hpp; sourceTree = "<group>"; };
 		F96CDE402201F8C10055BC2B /* LinearNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinearNode.hpp; sourceTree = "<group>"; };
 		F96CDE42220206670055BC2B /* Array.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Array.hpp; sourceTree = "<group>"; };
 		F99F207221FF5B4B0016795F /* DataStructures */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructures; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,6 +90,15 @@
 			path = Tools;
 			sourceTree = "<group>";
 		};
+		F955709D22147ED20099805F /* Testers */ = {
+			isa = PBXGroup;
+			children = (
+				F955709E22147EF30099805F /* LinearTester.cpp */,
+				F955709F22147EF30099805F /* LinearTester.hpp */,
+			);
+			path = Testers;
+			sourceTree = "<group>";
+		};
 		F96CDE3E2201F0BA0055BC2B /* Nodes */ = {
 			isa = PBXGroup;
 			children = (
@@ -127,6 +139,7 @@
 		F99F207421FF5B4B0016795F /* DataStructures */ = {
 			isa = PBXGroup;
 			children = (
+				F955709D22147ED20099805F /* Testers */,
 				53010B112214020B00699AE6 /* Resources */,
 				F99F207E21FF5BEF0016795F /* Diagrams */,
 				F99F207D21FF5BDF0016795F /* Model */,
@@ -229,6 +242,7 @@
 				F99F208321FF5D820016795F /* Runner.cpp in Sources */,
 				F99F208721FF5D9E0016795F /* Controller.cpp in Sources */,
 				53010B102213FF5E00699AE6 /* FileController.cpp in Sources */,
+				F95570A022147EF30099805F /* LinearTester.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

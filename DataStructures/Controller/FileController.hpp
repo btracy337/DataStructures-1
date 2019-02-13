@@ -25,13 +25,13 @@ using namespace std;
 class FileController
 {
 public:
-    static vector<CrimeData> readCrimeDataToVector(string filename);
-    LinkedList<CrimeData> readDataToList(string filename);
+    static vector<CrimeData> readCrimeDataToVector(string fileName);
+    LinkedList<CrimeData> readDataToList(string fileName);
     
-    static vector<Music> musicDataToVector(string filename);
+    static vector<Music> musicDataToVector(string fileName);
     
-    static Array<Music> musicDataToArrat(string filename);
-    static LinkedList<Music> musicDataToList(string filename);
+    static Array<Music> musicDataToArrat(string fileName);
+    static LinkedList<Music> musicDataToList(string fileName);
 
 };
 
