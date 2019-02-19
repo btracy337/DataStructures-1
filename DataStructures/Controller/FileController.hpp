@@ -26,11 +26,11 @@ class FileController
 {
 public:
     static vector<CrimeData> readCrimeDataToVector(string fileName);
-    LinkedList<CrimeData> readDataToList(string fileName);
+    static LinkedList<CrimeData> readDataToList(string fileName);
     
     static vector<Music> musicDataToVector(string fileName);
     
-    static Array<Music> musicDataToArrat(string fileName);
+    static Array<Music> musicDataToArray(string fileName);
     static LinkedList<Music> musicDataToList(string fileName);
 
 };
