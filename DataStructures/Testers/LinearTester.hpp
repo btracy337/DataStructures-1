@@ -16,6 +16,9 @@
 #include "../Model/Linear/Stack.hpp"
 #include "../Model/Linear/Queue.hpp"
 #include "../Model/Linear/Array.hpp"
+#include "../Resources/CrimeData.hpp"
+#include "../Controller/FileController.hpp"
+
 
 using namespace std;
 
