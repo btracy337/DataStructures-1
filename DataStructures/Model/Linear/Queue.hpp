@@ -78,7 +78,7 @@ void Queue<Type> :: add(Type item)
 }
 
 template <class Type>
-void Queue<Type> :: dequeue()
+Type Queue<Type> :: dequeue()
 {
     assert(this->size > 0);
     
@@ -110,7 +110,7 @@ void Queue<Type> :: clear()
 }
 
 template <class Type>
-void Queue<Type> :: peek()
+Type Queue<Type> :: peek()
 {
     assert(this->size > 0);
     return this->getFront()->getData();

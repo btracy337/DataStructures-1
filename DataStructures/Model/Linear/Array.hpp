@@ -43,7 +43,7 @@ public:
 //Implementation
 
 template <class Type>
-Array<Type> :: Array<Type>(int size)
+Array<Type> :: Array(int size)
 {
     assert(size > 0);
     this->size = size;

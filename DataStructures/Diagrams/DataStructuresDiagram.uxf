@@ -5,7 +5,7 @@
     <id>UMLClass</id>
     <coordinates>
       <x>217</x>
-      <y>7</y>
+      <y>0</y>
       <w>322</w>
       <h>182</h>
     </coordinates>
@@ -30,7 +30,7 @@ bg=red
     <id>UMLClass</id>
     <coordinates>
       <x>224</x>
-      <y>238</y>
+      <y>231</y>
       <w>308</w>
       <h>168</h>
     </coordinates>
@@ -53,7 +53,7 @@ LinearNode&lt;Type&gt;(Type, LinearNode&lt;Type&gt;) : constructor
     <id>UMLClass</id>
     <coordinates>
       <x>616</x>
-      <y>231</y>
+      <y>224</y>
       <w>252</w>
       <h>189</h>
     </coordinates>
@@ -78,7 +78,7 @@ LinearNode&lt;Type&gt;(Type, LinearNode&lt;Type&gt;) : constructor
     <id>Relation</id>
     <coordinates>
       <x>525</x>
-      <y>308</y>
+      <y>301</y>
       <w>105</w>
       <h>21</h>
     </coordinates>
@@ -89,7 +89,7 @@ LinearNode&lt;Type&gt;(Type, LinearNode&lt;Type&gt;) : constructor
     <id>UMLClass</id>
     <coordinates>
       <x>273</x>
-      <y>490</y>
+      <y>483</y>
       <w>252</w>
       <h>189</h>
     </coordinates>
@@ -114,7 +114,7 @@ getEnd() : LinearNode&lt;Type&gt; *
     <id>Relation</id>
     <coordinates>
       <x>364</x>
-      <y>399</y>
+      <y>392</y>
       <w>21</w>
       <h>105</h>
     </coordinates>
@@ -125,7 +125,7 @@ getEnd() : LinearNode&lt;Type&gt; *
     <id>Relation</id>
     <coordinates>
       <x>357</x>
-      <y>182</y>
+      <y>175</y>
       <w>21</w>
       <h>70</h>
     </coordinates>
@@ -135,19 +135,19 @@ getEnd() : LinearNode&lt;Type&gt; *
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>392</x>
-      <y>672</y>
-      <w>21</w>
-      <h>91</h>
+      <x>294</x>
+      <y>777</y>
+      <w>77</w>
+      <h>77</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;110.0</additional_attributes>
+    <additional_attributes>90.0;10.0;10.0;90.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>539</x>
-      <y>749</y>
+      <x>427</x>
+      <y>840</y>
       <w>168</w>
       <h>84</h>
     </coordinates>
@@ -161,8 +161,8 @@ getEnd() : LinearNode&lt;Type&gt; *
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>98</x>
-      <y>749</y>
+      <x>294</x>
+      <y>700</y>
       <w>168</w>
       <h>84</h>
     </coordinates>
@@ -176,8 +176,8 @@ getEnd() : LinearNode&lt;Type&gt; *
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>329</x>
-      <y>749</y>
+      <x>231</x>
+      <y>840</y>
       <w>168</w>
       <h>84</h>
     </coordinates>
@@ -191,23 +191,23 @@ getEnd() : LinearNode&lt;Type&gt; *
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>224</x>
+      <x>378</x>
       <y>665</y>
-      <w>133</w>
-      <h>98</h>
+      <w>21</w>
+      <h>49</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
-    <additional_attributes>170.0;10.0;10.0;120.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>469</x>
-      <y>672</y>
-      <w>133</w>
-      <h>91</h>
+      <x>427</x>
+      <y>777</y>
+      <w>63</w>
+      <h>77</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;170.0;110.0</additional_attributes>
+    <additional_attributes>10.0;10.0;70.0;90.0</additional_attributes>
   </element>
 </diagram>

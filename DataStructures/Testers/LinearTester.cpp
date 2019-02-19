@@ -7,6 +7,8 @@
 //
 
 #include "LinearTester.hpp"
+#include "../Resources/CrimeData.hpp"
+#include "../Controller/FileController.hpp"
 
 void LinearTester :: testVsSTL()
 {

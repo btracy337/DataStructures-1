@@ -34,7 +34,7 @@ public:
 
 };
 
-template class<Type>
+template <class Type>
 LinkedList<Type> :: LinkedList()
 {
     this->front = nullptr;
@@ -72,7 +72,7 @@ void LinkedList<Type> :: add(Type item)
 template <class Type>
 void LinkedList<Type> :: addAtIndex(int index, Type item)
 {
-    assert(index >=0 && index <= thiis->size);
+    assert(index >=0 && index <= this->size);
     if(index == this->size)
     {
         add(item);
@@ -89,7 +89,7 @@ void LinkedList<Type> :: addAtIndex(int index, Type item)
         {
             LinearNode<Type> * previous = nullptr;
             LinearNode<Type> * current = front;
-            for(int positions = 0; position < index; position++)
+            for(int position = 0; position < index; position++)
             {
                 previous = current;
                 current = current->getNextNode();
@@ -114,7 +114,7 @@ Type LinkedList<Type> :: getFromIndex(int index)
     {
         current = current->getNextNode();
     }
-    data = current getData();
+    data = current->getData();
     
     return data;
 }
@@ -159,7 +159,7 @@ Type LinkedList<Type> :: remove(int index)
     
     removedData = toBeRemoved->getData();
     delete toBeRemoved;
-    return removeData;
+    return removedData;
 }
 
 template <class Type>
