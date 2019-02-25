@@ -88,4 +88,14 @@ void LinearTester :: testVsSTL()
 void LinearTester:: testVsStack()
 {
     vector<CrimeData> crime = FileController :: readCrimeDataToVector("/Users/gram2068/Documents/C++ code/DataStructures/DataStructures/Resources/crime.csv");
+    LinkedList<CrimeData> moreCrimes = FileController :: readDataToList("/Users/gram2068/Documents/C++ code/DataStructures/DataStructures/Resources/crime.csv");
+    
+    Stack<CrimeData> crimeStack;
+    
+    for(int index = 0; index < 10; index++)
+    {
+        crimeStack.push(crime[index]);
+    }
+
+    
 }
