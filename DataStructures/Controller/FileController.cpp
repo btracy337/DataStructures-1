@@ -93,7 +93,7 @@ LinkedList<CrimeData> FileController:: readDataToList(string fileName)
     {
         while(!dataFile.eof())
         {
-            getline(dataFile, currentCSVLine, '\n');
+            getline(dataFile, currentCSVLine, '\r');
             
             if(rowCount != 0)
             {
@@ -129,7 +129,7 @@ LinkedList<Music> FileController:: musicDataToList(string fileName)
     {
         while(!dataFile.eof())
         {
-            getline(dataFile, currentCSVLine, '\n');
+            getline(dataFile, currentCSVLine, '\r');
             
             if(rowCount != 0)
             {

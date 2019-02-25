@@ -24,21 +24,21 @@ void LinearTester :: testVsSTL()
     crimeTimerSTL.displayInformation();
     cout << "CRIME OOP" << endl;
     crimeTimerOOP.displayInformation();
-    cout << "A difference of: " << crimeTimerSTL.getTimeInMicroseconds() - crimeTimerOOP.getTimeInMicroseconds() << " microseconds" << endl;
+    cout << "A difference of: " << crimeTimerOOP.getTimeInMicroseconds() - crimeTimerSTL.getTimeInMicroseconds() << " microseconds" << endl;
     
     musicSTL.startTimer();
-    vector<Music> music = FileController :: musicDataToVector("/Users/gram2068/Documents/C++ code/DataStructures/DataStructures/Resources/crime.csv");
+    vector<Music> music = FileController :: musicDataToVector("/Users/gram2068/Documents/C++ code/DataStructures/DataStructures/Resources/music.csv");
     musicSTL.stopTimer();
     
     musicOOP.startTimer();
-    LinkedList<Music> moreMusic = FileController :: musicDataToList("/Users/gram2068/Documents/C++ code/DataStructures/DataStructures/Resources/crime.csv");
+    LinkedList<Music> moreMusic = FileController :: musicDataToList("/Users/gram2068/Documents/C++ code/DataStructures/DataStructures/Resources/music.csv");
     musicOOP.stopTimer();
     
     cout << "MUSIC STL " << endl;
     musicSTL.displayInformation();
     cout << "MUSIC OOP " << endl;
     musicOOP.displayInformation();
-    cout << "A difference of: " << musicSTL.getTimeInMicroseconds() - musicOOP.getTimeInMicroseconds() << " microseconds" << endl;
+    cout << "A difference of: " << musicOOP.getTimeInMicroseconds() - musicSTL.getTimeInMicroseconds() << " microseconds" << endl;
     
     
     
@@ -79,5 +79,9 @@ void LinearTester :: testVsSTL()
     musicOOP.displayInformation();
     cout << "A difference of: " << musicOOP.getTimeInMicroseconds() - musicSTL.getTimeInMicroseconds() << " microseconds" << endl;
     
+    crimeTimerOOP.resetTimer();
+    crimeTimerSTL.resetTimer();
+    musicOOP.resetTimer();
+    musicSTL.resetTimer();
 }
 
