@@ -14,6 +14,7 @@
 #include "../Resources/Music.hpp"
 #include "../Model/Linear/Array.hpp"
 #include "../Model/Linear/LinkedList.hpp"
+#include "../Model/Linear/Stack.hpp"
 
 #include <string>
 #include <fstream>
@@ -32,6 +33,8 @@ public:
     
     static Array<Music> musicDataToArray(string fileName);
     static LinkedList<Music> musicDataToList(string fileName);
+    
+    static Stack<CrimeData> crimeToStack(string fileName);
 
 };
 

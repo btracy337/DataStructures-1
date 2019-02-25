@@ -85,3 +85,7 @@ void LinearTester :: testVsSTL()
     musicSTL.resetTimer();
 }
 
+void LinearTester:: testVsStack()
+{
+    vector<CrimeData> crime = FileController :: readCrimeDataToVector("/Users/gram2068/Documents/C++ code/DataStructures/DataStructures/Resources/crime.csv");
+}
