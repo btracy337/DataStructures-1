@@ -20,9 +20,9 @@ void LinearTester :: testVsSTL()
     LinkedList<CrimeData> moreCrimes = FileController :: readDataToList("/Users/gram2068/Documents/C++ code/DataStructures/DataStructures/Resources/crime.csv");
     crimeTimerOOP.stopTimer();
     
-    cout << "this is crime STL: " << endl;
+    cout << "CRIME STL " << endl;
     crimeTimerSTL.displayInformation();
-    cout << "this is crime OOP: " << endl;
+    cout << "CRIME OOP" << endl;
     crimeTimerOOP.displayInformation();
     cout << "A difference of: " << crimeTimerSTL.getTimeInMicroseconds() - crimeTimerOOP.getTimeInMicroseconds() << " microseconds" << endl;
     
@@ -34,15 +34,50 @@ void LinearTester :: testVsSTL()
     LinkedList<Music> moreMusic = FileController :: musicDataToList("/Users/gram2068/Documents/C++ code/DataStructures/DataStructures/Resources/crime.csv");
     musicOOP.stopTimer();
     
-    cout << "this is music STL: " << endl;
+    cout << "MUSIC STL " << endl;
     musicSTL.displayInformation();
-    cout << "this is music OOP: " << endl;
+    cout << "MUSIC OOP " << endl;
     musicOOP.displayInformation();
     cout << "A difference of: " << musicSTL.getTimeInMicroseconds() - musicOOP.getTimeInMicroseconds() << " microseconds" << endl;
+    
+    
     
     crimeTimerOOP.resetTimer();
     crimeTimerSTL.resetTimer();
     musicOOP.resetTimer();
     musicSTL.resetTimer();
+    
+    int randomIndex = rand() % moreCrimes.getSize();
+    
+    crimeTimerSTL.startTimer();
+    crimes[randomIndex];
+    crimeTimerSTL.stopTimer();
+    
+    crimeTimerOOP.startTimer();
+    moreCrimes.getFromIndex(randomIndex);
+    crimeTimerOOP.stopTimer();
+    
+    cout << "STL RANDOM RETRIEVAL" << endl;
+    crimeTimerSTL.displayInformation();
+    cout << "OOP RANDOM RETRIEVAL" << endl;
+    crimeTimerOOP.displayInformation();
+    cout << "A difference of: " << crimeTimerOOP.getTimeInMicroseconds() - crimeTimerSTL.getTimeInMicroseconds() << " microseconds" << endl;
+    
+    randomIndex = rand() % moreMusic.getSize();
+    
+    musicSTL.startTimer();
+    music[randomIndex];
+    musicSTL.stopTimer();
+    
+    musicOOP.startTimer();
+    moreMusic.getFromIndex(randomIndex);
+    musicOOP.stopTimer();
+    
+    cout << "MUSIC STL RANDOM RETRIEVAL" << endl;
+    musicSTL.displayInformation();
+    cout << "MUSIC OOP RANDOM RETRIEVAL" << endl;
+    musicOOP.displayInformation();
+    cout << "A difference of: " << musicOOP.getTimeInMicroseconds() - musicSTL.getTimeInMicroseconds() << " microseconds" << endl;
+    
 }
 
