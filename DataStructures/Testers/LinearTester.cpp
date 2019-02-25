@@ -57,9 +57,9 @@ void LinearTester :: testVsSTL()
     moreCrimes.getFromIndex(randomIndex);
     crimeTimerOOP.stopTimer();
     
-    cout << "STL RANDOM RETRIEVAL" << endl;
+    cout << "CRIME STL RANDOM RETRIEVAL" << endl;
     crimeTimerSTL.displayInformation();
-    cout << "OOP RANDOM RETRIEVAL" << endl;
+    cout << "CRIME OOP RANDOM RETRIEVAL" << endl;
     crimeTimerOOP.displayInformation();
     cout << "A difference of: " << crimeTimerOOP.getTimeInMicroseconds() - crimeTimerSTL.getTimeInMicroseconds() << " microseconds" << endl;
     
