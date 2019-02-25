@@ -187,3 +187,39 @@ Stack<CrimeData> FileController:: crimeToStack(string fileName)
     }
     return crime;
 }
+
+Stack<Music> FileController:: musicToStack(string fileName)
+{
+    Stack<Music> music;
+    
+    string currentCSVLine;
+    int rowCount = 0;
+    
+    ifstream dataFile(fileName);
+    
+    if(dataFile.is_open())
+    {
+        while(!dataFile.eof())
+        {
+            getline(dataFile, currentCSVLine, '\r');
+            
+            if(rowCount != 0)
+            {
+                
+                if(currentCSVLine.length() != 0)
+                {
+                    Music row(currentCSVLine);
+                    music.push(row);
+                }
+                
+            }
+            rowCount++;
+        }
+        dataFile.close();
+    }
+    else
+    {
+        cerr << "NO FILE" << endl;
+    }
+    return music;
+}

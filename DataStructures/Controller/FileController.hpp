@@ -35,6 +35,7 @@ public:
     static LinkedList<Music> musicDataToList(string fileName);
     
     static Stack<CrimeData> crimeToStack(string fileName);
+    static Stack<Music> musicToStack(string filename);
 
 };
 
