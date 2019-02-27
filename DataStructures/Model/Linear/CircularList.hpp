@@ -45,7 +45,7 @@ CircularList<Type> :: ~CircularList()
     DoubleNode<Type> * current = front;
     while(this->front != nullptr)
     {
-        front = front->getNext()
+        front = front->getNext();
         delete current;
         current =  front;
     }
@@ -87,7 +87,7 @@ void CircularList<Type> :: add(Type item)
     if(this->size == 0)
     {
         addedNode = new DoubleNode<Type>(item);
-        this->front = addedNode
+        this->front = addedNode;
     }
     else
     {
@@ -165,7 +165,7 @@ Type CircularList<Type> :: setAtIndex(int index, Type item)
     DoubleNode<Type> * replacedValue = findNode(index);
     Type replaced = replacedValue->getData();
     replacedValue->setData(item);
-    return replaced
+    return replaced;
     
 }
 template<class Type>

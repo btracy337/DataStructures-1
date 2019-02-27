@@ -32,7 +32,7 @@ public:
 
 //constructor
 template<class Type>
-DoubleNode<Type> :: DoubleNode() : Node<Type>()
+DoubleNode<Type> :: DoubleNode(Type data) : Node<Type>()
 {
     
 }
@@ -49,18 +49,18 @@ DoubleNode<Type> * DoubleNode<Type> :: getNextNode()
     return this->nextNode;
 }
 template<class Type>
-DoubleNode<Type> * DoubleNode<Type> :: getPreviousNode()
+DoubleNode<Type> * DoubleNode<Type> :: getPrevNode()
 {
     return this->previousNode;
 }
 //setters
 template<class Type>
-void setNextNode(DoubleNode<Type> * nextNode)
+void DoubleNode<Type> ::  setNextNode(DoubleNode<Type> * nextNode)
 {
     this->nextNode = nextNode;
 }
 template<class Type>
-void setPrevNode(DoubleNode<Type> * previousNode)
+void DoubleNode<Type>::  setPrevNode(DoubleNode<Type> * previousNode)
 {
     this->previousNode = previousNode;
 }

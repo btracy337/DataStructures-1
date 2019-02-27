@@ -96,6 +96,23 @@ void LinearTester:: testVsStack()
     {
         crimeStack.push(crime[index]);
     }
+}
 
+void LinearTester:: testVsQueue()
+{
+    vector<Music> music = FileController :: musicDataToVector("/Users/gram2068/Documents/C++ code/DataStructures/DataStructures/Resources/music.csv");
+    
+    Queue<Music> musicQueue;
+    
+    for(int i = 0; i < 10; i++)
+    {
+        musicQueue.enqueue(music[i]);
+    }
     
 }
+
+//void LinearTester:: testVsDouble()
+//{
+//    LinkedList<CrimeData> crimeList = FileController :: readDataToList("/Users/gram2068/Documents/C++ code/DataStructures/DataStructures/Resources/crime.csv");
+//    CircularList<CrimeData> circularCrime = FileController:: 
+//}

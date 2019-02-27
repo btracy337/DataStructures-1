@@ -18,6 +18,7 @@
 #include "../Model/Linear/Array.hpp"
 #include "../Resources/CrimeData.hpp"
 #include "../Controller/FileController.hpp"
+#include "../Model/Linear/CircularList.hpp"
 
 
 using namespace std;
