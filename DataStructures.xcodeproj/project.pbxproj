@@ -40,6 +40,7 @@
 		F913B60A220C84F5006186DA /* List.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = List.hpp; sourceTree = "<group>"; };
 		F913B60B220C8978006186DA /* DataStructuresDiagram.uxf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = DataStructuresDiagram.uxf; sourceTree = "<group>"; };
 		F913B60C220C94CC006186DA /* LinkedList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkedList.hpp; sourceTree = "<group>"; };
+		F92867E02237F4D3002EE34A /* Graph.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Graph.hpp; sourceTree = "<group>"; };
 		F9419D372209DEAA00625691 /* Timer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Timer.cpp; sourceTree = "<group>"; };
 		F9419D382209DEAA00625691 /* Timer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Timer.hpp; sourceTree = "<group>"; };
 		F955709C221466BD0099805F /* Stack.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Stack.hpp; sourceTree = "<group>"; };
@@ -81,6 +82,14 @@
 				F90BEC7922243F68007D6CA0 /* Music.hpp */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		F92867DF2237F4AD002EE34A /* Non-Linear */ = {
+			isa = PBXGroup;
+			children = (
+				F92867E02237F4D3002EE34A /* Graph.hpp */,
+			);
+			path = "Non-Linear";
 			sourceTree = "<group>";
 		};
 		F9419D362209DE8000625691 /* Tools */ = {
@@ -168,6 +177,7 @@
 		F99F207D21FF5BDF0016795F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F92867DF2237F4AD002EE34A /* Non-Linear */,
 				F96CDE41220206530055BC2B /* Linear */,
 				F96CDE3E2201F0BA0055BC2B /* Nodes */,
 			);
