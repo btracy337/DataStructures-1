@@ -14,6 +14,7 @@
 		F95570A022147EF30099805F /* LinearTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F955709E22147EF30099805F /* LinearTester.cpp */; };
 		F99F208321FF5D820016795F /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F99F208221FF5D820016795F /* Runner.cpp */; };
 		F99F208721FF5D9E0016795F /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F99F208521FF5D9E0016795F /* Controller.cpp */; };
+		F9ADF72D223FDB9F0021767F /* GraphTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9ADF72B223FDB9F0021767F /* GraphTester.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -57,6 +58,8 @@
 		F99F208521FF5D9E0016795F /* Controller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Controller.cpp; sourceTree = "<group>"; };
 		F99F208621FF5D9E0016795F /* Controller.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Controller.hpp; sourceTree = "<group>"; };
 		F99F208921FF60E90016795F /* Node.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Node.hpp; sourceTree = "<group>"; };
+		F9ADF72B223FDB9F0021767F /* GraphTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GraphTester.cpp; sourceTree = "<group>"; };
+		F9ADF72C223FDB9F0021767F /* GraphTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GraphTester.hpp; sourceTree = "<group>"; };
 		F9C05E862211D97D0044E259 /* Queue.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Queue.hpp; sourceTree = "<group>"; usesTabs = 0; };
 /* End PBXFileReference section */
 
@@ -106,6 +109,8 @@
 			children = (
 				F955709E22147EF30099805F /* LinearTester.cpp */,
 				F955709F22147EF30099805F /* LinearTester.hpp */,
+				F9ADF72B223FDB9F0021767F /* GraphTester.cpp */,
+				F9ADF72C223FDB9F0021767F /* GraphTester.hpp */,
 			);
 			path = Testers;
 			sourceTree = "<group>";
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9419D392209DEAA00625691 /* Timer.cpp in Sources */,
+				F9ADF72D223FDB9F0021767F /* GraphTester.cpp in Sources */,
 				F90BEC7D22243F68007D6CA0 /* Music.cpp in Sources */,
 				F99F208321FF5D820016795F /* Runner.cpp in Sources */,
 				F90BEC7C22243F68007D6CA0 /* CrimeData.cpp in Sources */,
