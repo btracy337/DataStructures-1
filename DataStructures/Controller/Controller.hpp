@@ -12,6 +12,7 @@
 #include <iostream>
 #include "../Model/Nodes/Node.hpp"
 #include "../Testers/LinearTester.hpp"
+#include "../Testers/GraphTester.hpp"
 using namespace std;
 
 class Controller
@@ -19,6 +20,7 @@ class Controller
 private:
     void usingNodes();
     void testLinear();
+    void testGraph();
 public:
     void start();
 };

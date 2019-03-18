@@ -11,8 +11,9 @@
 void Controller:: start()
 {
     cout << "welcome to data structures app" << endl;
+    testGraph();
 //    usingNodes();
-    testLinear();
+//    testLinear();
 }
 
 void Controller:: usingNodes()
@@ -26,6 +27,11 @@ void Controller:: usingNodes()
     cout << wordHolder.getData() << endl;
 }
 
+void Controller:: testGraph()
+{
+    GraphTester testIt;
+    testIt.testGraphs();
+}
 void Controller:: testLinear()
 {
     LinearTester testIt;

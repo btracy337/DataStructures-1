@@ -23,6 +23,6 @@ private:
     void findCheapestTraversal();
 public:
     void testGraphs();
-}
+};
 
 #endif /* GraphTester_hpp */
