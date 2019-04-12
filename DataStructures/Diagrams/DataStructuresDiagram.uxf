@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.2">
-  <zoom_level>7</zoom_level>
+  <zoom_level>10</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>231</x>
-      <y>0</y>
-      <w>322</w>
-      <h>182</h>
+      <x>770</x>
+      <y>230</y>
+      <w>460</w>
+      <h>260</h>
     </coordinates>
     <panel_attributes>Node&lt;Type&gt;
 bg=red
@@ -29,10 +29,10 @@ bg=red
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>238</x>
-      <y>231</y>
-      <w>308</w>
-      <h>168</h>
+      <x>780</x>
+      <y>560</y>
+      <w>440</w>
+      <h>240</h>
     </coordinates>
     <panel_attributes>LinearNode&lt;Type&gt;
 bg=blue
@@ -52,10 +52,10 @@ LinearNode&lt;Type&gt;(Type, LinearNode&lt;Type&gt;) : constructor
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>630</x>
-      <y>224</y>
-      <w>252</w>
-      <h>189</h>
+      <x>1340</x>
+      <y>550</y>
+      <w>360</w>
+      <h>270</h>
     </coordinates>
     <panel_attributes>Array&lt;Type&gt;
 
@@ -77,10 +77,10 @@ LinearNode&lt;Type&gt;(Type, LinearNode&lt;Type&gt;) : constructor
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>539</x>
-      <y>301</y>
-      <w>105</w>
-      <h>21</h>
+      <x>1210</x>
+      <y>660</y>
+      <w>150</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;130.0;10.0</additional_attributes>
@@ -88,10 +88,10 @@ LinearNode&lt;Type&gt;(Type, LinearNode&lt;Type&gt;) : constructor
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>287</x>
-      <y>483</y>
-      <w>252</w>
-      <h>189</h>
+      <x>850</x>
+      <y>920</y>
+      <w>360</w>
+      <h>270</h>
     </coordinates>
     <panel_attributes>List&lt;Type&gt;
 
@@ -113,10 +113,10 @@ getEnd() : LinearNode&lt;Type&gt; *
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>378</x>
-      <y>392</y>
-      <w>21</w>
-      <h>105</h>
+      <x>980</x>
+      <y>790</y>
+      <w>30</w>
+      <h>150</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;130.0</additional_attributes>
@@ -124,10 +124,10 @@ getEnd() : LinearNode&lt;Type&gt; *
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>371</x>
-      <y>175</y>
-      <w>21</w>
-      <h>70</h>
+      <x>970</x>
+      <y>480</y>
+      <w>30</w>
+      <h>100</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
@@ -135,10 +135,10 @@ getEnd() : LinearNode&lt;Type&gt; *
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>308</x>
-      <y>777</y>
-      <w>77</w>
-      <h>77</h>
+      <x>880</x>
+      <y>1340</y>
+      <w>110</w>
+      <h>110</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>90.0;10.0;10.0;90.0</additional_attributes>
@@ -146,10 +146,10 @@ getEnd() : LinearNode&lt;Type&gt; *
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>441</x>
-      <y>840</y>
-      <w>168</w>
-      <h>84</h>
+      <x>1070</x>
+      <y>1430</y>
+      <w>240</w>
+      <h>120</h>
     </coordinates>
     <panel_attributes>Queue&lt;Type&gt;
 --
@@ -161,10 +161,10 @@ getEnd() : LinearNode&lt;Type&gt; *
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>308</x>
-      <y>700</y>
-      <w>168</w>
-      <h>84</h>
+      <x>880</x>
+      <y>1230</y>
+      <w>240</w>
+      <h>120</h>
     </coordinates>
     <panel_attributes>LinkedList&lt;Type&gt;
 --
@@ -176,10 +176,10 @@ getEnd() : LinearNode&lt;Type&gt; *
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>245</x>
-      <y>840</y>
-      <w>168</w>
-      <h>84</h>
+      <x>790</x>
+      <y>1430</y>
+      <w>240</w>
+      <h>120</h>
     </coordinates>
     <panel_attributes>Stack&lt;Type&gt;
 --
@@ -191,10 +191,10 @@ getEnd() : LinearNode&lt;Type&gt; *
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>392</x>
-      <y>665</y>
-      <w>21</w>
-      <h>49</h>
+      <x>1000</x>
+      <y>1180</y>
+      <w>30</w>
+      <h>70</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
@@ -202,10 +202,10 @@ getEnd() : LinearNode&lt;Type&gt; *
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>441</x>
-      <y>777</y>
-      <w>63</w>
-      <h>77</h>
+      <x>1070</x>
+      <y>1340</y>
+      <w>90</w>
+      <h>110</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;70.0;90.0</additional_attributes>
@@ -213,10 +213,10 @@ getEnd() : LinearNode&lt;Type&gt; *
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>756</x>
-      <y>35</y>
-      <w>217</w>
-      <h>98</h>
+      <x>1520</x>
+      <y>280</y>
+      <w>310</w>
+      <h>140</h>
     </coordinates>
     <panel_attributes>DoubleNode&lt;Type&gt;
 --
@@ -233,12 +233,47 @@ getEnd() : LinearNode&lt;Type&gt; *
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>546</x>
-      <y>70</y>
-      <w>224</w>
-      <h>21</h>
+      <x>1220</x>
+      <y>330</y>
+      <w>320</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;300.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>30</x>
+      <y>220</y>
+      <w>460</w>
+      <h>230</h>
+    </coordinates>
+    <panel_attributes>BinaryTreeNode&lt;Type&gt;
+bg=green
+--
+
+- rightChild : BinaryTreeNode&lt;Type&gt; *
+- leftChild : BinaryTreeNode&lt;Type&gt; *
+- root : BinaryTreeNode&lt;Type&gt; *
+
+--
+
++ BinaryTreeNode&lt;Type&gt;(): constructor 
++ BinaryTreeNode&lt;Type&gt;(Type): constructor 
+
++ getters/setters</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>480</x>
+      <y>310</y>
+      <w>310</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>290.0;10.0;10.0;10.0</additional_attributes>
   </element>
 </diagram>
