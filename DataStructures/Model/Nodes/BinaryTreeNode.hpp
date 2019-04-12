@@ -84,4 +84,4 @@ void BinaryTreeNode<Type> :: setRightChild(BinaryTreeNode<Type> * right)
 
 
 
-#endif /* BinaryTreeNode_h */
+#endif /* BinaryTreeNode_hpp */
