@@ -17,6 +17,7 @@ class BinaryTreeTester
 {
 private:
     BinaryTreeNode<int> testNode;
+    void test();
 };
 
 
