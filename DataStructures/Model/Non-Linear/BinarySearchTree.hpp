@@ -30,7 +30,7 @@ protected:
     void destroyTree(BinaryTreeNode<Type> * node);
     
     BinaryTreeNode<Type> * getRightmostChild(BinaryTreeNode<Type> * current);
-    BInaryTreeNode<Type> * getLeftmostChild(BinaryTreeNode<Type> * current);
+    BinaryTreeNode<Type> * getLeftmostChild(BinaryTreeNode<Type> * current);
     
     void removeNode(BinaryTreeNode<Type> * removeMe);
 public:

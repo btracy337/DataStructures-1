@@ -12,11 +12,13 @@
 
 #include "../Model/Nodes/BinaryTreeNode.hpp"
 #include "BinaryTreeTester.hpp"
+#include "../Model/Non-Linear/BinarySearchTree.hpp"
 
 class BinaryTreeTester
 {
 private:
     BinaryTreeNode<int> testNode;
+    BinarySearchTree<int> testSearch;
     void test();
 };
 
