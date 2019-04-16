@@ -97,9 +97,20 @@ void BinarySearchTree<Type> :: postOrderTraversal()
 }
 
 template <class Type>
-void BinarySearchTree<Type> :: insert(Type item)
+void BinarySearchTree<Type> :: insert(Type itemToInsert)
 {
+    BinaryTreeNode<Type> * insertMe = new BinaryTreeNode<Type>(itemToInsert);
+    BinaryTreeNode<Type> * previous = nullptr;
+    BinaryTreeNode<Type> * current = this->root;
     
+    if(current == nullptr)
+    {
+        this->root = insertMe;
+    }
+    else
+    {
+        
+    }
 }
 template <class Type>
 bool BinarySearchTree<Type> :: contains(Type value)
@@ -111,6 +122,8 @@ void BinarySearchTree<Type> :: remove(Type item)
 {
     
 }
+
+
 
 
 
