@@ -17,7 +17,18 @@ protected:
     BinaryTreeNode<Type> * root;
 public:
     //informational methods
-    virtual int getSize()
+    virtual int getSize() = 0;
+    virtual int getHeight() = 0;
+    virtual bool isComplete() = 0;
+    virtual bool isBalanced() = 0;
+    
+    virtual void insert(Type data) = 0;
+    virtual bool contains(Type data) = 0;
+    virtual void remove(Type data) = 0;
+    
+    virtual void inOrderTraversal() = 0;
+    virtual void preOrderTraversal() = 0;
+    virtual void postOrderTraversal() = 0;
 };
 
 
