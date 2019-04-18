@@ -12,3 +12,13 @@ void BinaryTreeTester :: test()
 {
     testNode = BinaryTreeNode<int>(19);
 }
+
+void BinaryTreeTester:: doTreeStuff()
+{
+    testSearch.insert(7);
+    testSearch.insert(1);
+    testSearch.insert(23);
+    testSearch.insert(231);
+    
+    testSearch.inOrderTraversal();
+}

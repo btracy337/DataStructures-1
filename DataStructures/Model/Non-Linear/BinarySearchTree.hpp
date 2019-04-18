@@ -58,7 +58,7 @@ public:
 
 };
 
-
+//public methods
 template <class Type>
 int BinarySearchTree<Type> :: getHeight()
 {
@@ -83,17 +83,17 @@ bool BinarySearchTree<Type> :: isBalanced()
 template <class Type>
 void BinarySearchTree<Type> :: inOrderTraversal()
 {
-    
+    inOrderTraversal(this->root);
 }
 template <class Type>
 void BinarySearchTree<Type> :: preOrderTraversal()
 {
-    
+    preOrderTraversal(this->root);
 }
 template <class Type>
 void BinarySearchTree<Type> :: postOrderTraversal()
 {
-    
+    postOrderTraversal(this->root);
 }
 
 template <class Type>
@@ -109,9 +109,36 @@ void BinarySearchTree<Type> :: insert(Type itemToInsert)
     }
     else
     {
-        
+        while(current != nullptr)
+        {
+            previous = current;
+            if(itemToInsert < current->getData())
+            {
+                current = current->getLeftChild();
+            }
+            else if(itemToInsert > current->getData())
+            {
+                current = current->getRightChild();
+            }
+            else
+            {
+                cerr << "Item exists already - Exiting insert" << endl;
+                delete insertMe;
+                return;
+            }
+        }
+        if(previous->getData() > itemToInsert)
+        {
+            previous ->setLeftChild(insertMe);
+        }
+        else
+        {
+            previous->setRightChild(insertMe);
+        }
+        insertMe->setRoot(previous);
     }
 }
+
 template <class Type>
 bool BinarySearchTree<Type> :: contains(Type value)
 {
@@ -121,6 +148,40 @@ template <class Type>
 void BinarySearchTree<Type> :: remove(Type item)
 {
     
+}
+
+//protected methods
+template <class Type>
+void BinarySearchTree<Type>:: inOrderTraversal(BinaryTreeNode<Type> * currentNode)
+{
+    if(currentNode != nullptr)
+    {
+        inOrderTraversal(currentNode->getRightChild());
+        cout << currentNode->getData() << endl;
+        inOrderTraversal(currentNode->getRightChild());
+    }
+}
+
+template <class Type>
+void BinarySearchTree<Type> :: preOrderTraversal(BinaryTreeNode<Type> * currentNode)
+{
+    if(currentNode != nullptr)
+    {
+        cout << currentNode->getData() << endl;
+        preOrderTraversal(currentNode->getLeftChild());
+        preOrderTraversal(currentNode->getRightChild());
+    }
+}
+
+template <class Type>
+void BinarySearchTree<Type> :: postOrderTraversal(BinaryTreeNode<Type> * currentNode)
+{
+    if(currentNode != nullptr)
+    {
+        postOrderTraversal(currentNode->getLeftChild());
+        postOrderTraversal(currentNode->getRightChild());
+        cout << currentNode->getData() << endl;
+    }
 }
 
 

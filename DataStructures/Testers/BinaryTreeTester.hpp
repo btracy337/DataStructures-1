@@ -20,6 +20,8 @@ private:
     BinaryTreeNode<int> testNode;
     BinarySearchTree<int> testSearch;
     void test();
+public:
+    void doTreeStuff();
 };
 
 
