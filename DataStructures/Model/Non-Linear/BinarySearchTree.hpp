@@ -57,6 +57,21 @@ public:
     Type findMaximum();
 
 };
+template <class Type>
+BinarySearchTree<Type> :: ~BinarySearchTree<Type>()
+{
+    destroyTree(this->root);
+}
+template <class Type>
+void BinarySearchTree<Type> :: destroyTree(BinaryTreeNode<Type> * node)
+{
+    if(node != nullptr)
+    {
+        destroyTree(node->getLeftChild());
+        destroyTree(node->getRightChild());
+        delete node;
+    }
+}
 
 template <class Type>
 int BinarySearchTree<Type> :: getHeight()
