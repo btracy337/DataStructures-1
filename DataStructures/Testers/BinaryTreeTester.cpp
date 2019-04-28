@@ -20,6 +20,10 @@ void BinaryTreeTester:: doTreeStuff()
     testSearch.insert(23);
     testSearch.insert(231);
     
+    testSearch.getHeight();
+    testSearch.isComplete();
+    testSearch.isBalanced();
+    
     testSearch.inOrderTraversal();
     testSearch.preOrderTraversal();
     testSearch.postOrderTraversal();
