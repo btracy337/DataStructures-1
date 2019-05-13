@@ -11,9 +11,10 @@
 void Controller:: start()
 {
     cout << "welcome to data structures app" << endl;
-    testGraph();
+//    testGraph();
 //    usingNodes();
 //    testLinear();
+    testTree();
 }
 
 void Controller:: usingNodes()
@@ -36,4 +37,9 @@ void Controller:: testLinear()
 {
     LinearTester testIt;
     testIt.testVsSTL();
+}
+void Controller:: testTree()
+{
+    BinaryTreeTester test;
+    test.doTreeStuff();
 }

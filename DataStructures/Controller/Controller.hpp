@@ -13,6 +13,7 @@
 #include "../Model/Nodes/Node.hpp"
 #include "../Testers/LinearTester.hpp"
 #include "../Testers/GraphTester.hpp"
+#include "../Testers/BinaryTreeTester.hpp"
 using namespace std;
 
 class Controller
@@ -21,6 +22,7 @@ private:
     void usingNodes();
     void testLinear();
     void testGraph();
+    void testTree();
 public:
     void start();
 };
