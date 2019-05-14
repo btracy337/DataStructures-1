@@ -10,22 +10,46 @@
 
 void BinaryTreeTester :: test()
 {
-    testNode = BinaryTreeNode<int>(19);
 }
 
 void BinaryTreeTester:: doTreeStuff()
 {
+    testInt.insert(7);
+    testInt.insert(1);
+    testInt.insert(23);
+    testInt.insert(231);
+    testInt.insert(2842939);
+    testInt.insert(1223);
+    testInt.insert(1);
+    testInt.insert(1233);
     
-    testSearch.insert(7);
-    testSearch.insert(1);
-    testSearch.insert(23);
-    testSearch.insert(231);
+    testInt.getHeight();
+    testInt.isComplete();
+    testInt.isBalanced();
     
-    testSearch.getHeight();
-    testSearch.isComplete();
-    testSearch.isBalanced();
+    cout << "IN ORDER INT" << endl;
+    testInt.inOrderTraversal();
+    cout << "PRE ORDER INT" << endl;
+    testInt.preOrderTraversal();
+    cout << "POST ORDER INT" << endl;
+    testInt.postOrderTraversal();
     
-    testSearch.inOrderTraversal();
-    testSearch.preOrderTraversal();
-    testSearch.postOrderTraversal();
+    
+    testString.insert("Bill Gates");
+    testString.insert("Steve Jobs");
+    testString.insert("Alan Turing");
+    testString.insert("Grace Hopper");
+    testString.insert("Ada Lovelace");
+    
+    testString.getHeight();
+    testString.isComplete();
+    testString.isBalanced();
+    
+    cout << "IN ORDER STRING" << endl;
+    testString.inOrderTraversal();
+    cout << "PRE ORDER STRING" << endl;
+    testString.preOrderTraversal();
+    cout << "POST ORDER STRING" << endl;
+    testString.postOrderTraversal();
+    
 }

@@ -57,6 +57,11 @@ public:
     Type findMaximum();
 
 };
+template<class Type>
+BinarySearchTree<Type> :: BinarySearchTree() : Tree<Type>()
+{
+   
+}
 template <class Type>
 BinarySearchTree<Type> :: ~BinarySearchTree<Type>()
 {
