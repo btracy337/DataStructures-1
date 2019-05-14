@@ -15,6 +15,7 @@ void BinaryTreeTester :: test()
 
 void BinaryTreeTester:: doTreeStuff()
 {
+    
     testSearch.insert(7);
     testSearch.insert(1);
     testSearch.insert(23);
